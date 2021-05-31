@@ -1,5 +1,7 @@
 # TENSOR PRODUCT AND MATRIX MULTIPLICATION WITHOUT USING NumPy
 
+# Program written by Caio Adriano Silvano as a final assignment for Stanford University's Code in Place (2021)
+
 # This program is capable of asking if the user wants to perform a multiplication or an outer product (in this case, we can call it tensor product or Kronecker product as well) between two matrices and check if the operation is possible. After the desired result is shown, the user will be able to continue realizing new operations.
 
 #The next step will be implementing operations with matrices whose elements can be complex numbers or other matrices. Then add the possibility of using the result from the last operation in the next one.
@@ -63,7 +65,7 @@ def generate_matrix(matrix_rows, matrix_columns):
     #this function first generates a blank matrix with the correct dimensions according to the parameters
     #first parameter: number of rows of the matrix
     #second parameter: number of columns of the matrix
-    #then the user is aked to input the values of each element of the matrix
+    #then the user is asked to input the values of each element of the matrix
     #finally, the full matrix is returned
 
     matrix = [ [ 0 for j in range(matrix_columns) ] for i in range(matrix_rows) ] 
@@ -255,7 +257,7 @@ def main():
     print('CODE IN PLACE -- MAY 2021 -- FINAL PROJECT')
     print('MATRIX MULTIPLICATION and TENSOR PRODUCT CALCULATOR')
     print('----------------------------')
-    print('Author: Caio Adriano Silvano')
+    print('Author/Student: Caio Adriano Silvano')
     print('----------------------------')
     print()
     while True:
